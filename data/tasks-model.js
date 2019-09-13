@@ -17,5 +17,7 @@ function getTasks() {
 		)
 }
 function addTask(task) {
-	return db('tasks').insert(task)
+	return db('tasks')
+		.insert(task)
+		.then((res) => findTasks())
 }
