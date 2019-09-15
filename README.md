@@ -1,3 +1,5 @@
+![](andy.jpg)
+
 # Sprint Challenge: Node DB Sprint
 
 ## Description
